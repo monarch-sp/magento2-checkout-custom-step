@@ -4,7 +4,7 @@
     <type name="Magento\Checkout\Block\Onepage">
         <arguments>
             <argument name="layoutProcessors" xsi:type="array">
-                <item name="additionalStepProcessor" xsi:type="object">SP\CheckoutLoginStep\Block\Checkout\AdditionalStepProcessor</item>
+                <item name="additionalStepProcessor" xsi:type="object">SP\CheckoutExtraStep\Block\Checkout\CheckoutExtraStep</item>
             </argument>
         </arguments>
     </type>
